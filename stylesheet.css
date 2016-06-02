@@ -1,0 +1,25 @@
+h1 {
+	font-family: Garamond, serif;
+	text-align: center;
+}
+
+p {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	margin: 20px;
+}
+
+.topBar {
+	background-color: #0092ff;
+	height: 50px;
+}
+
+
+
+.navButton {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: .85em;
+	padding: 0px 10px 20px 40px;
+	border: 1px dashed black;
+}
