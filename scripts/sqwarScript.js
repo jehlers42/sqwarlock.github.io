@@ -9,7 +9,7 @@ $(document).ready(function() {
 			$(".centerFooter").css('width', '60%');
 		}
 	});
-	if (typeof window.orientation !== "undefined" || $(window).width() < 960) {
+	if (typeof window.orientation !== "undefined") {
 			$(".mainContainer").css('width', '99%');
 			$(".centerFooter").css('width', '99%');
 		}
