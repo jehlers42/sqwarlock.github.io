@@ -57,7 +57,7 @@ html, body {
 	}
 	
 	.centerHeader {
-		height: 50px;
+		height: auto;
 		background: #0264a0;
 		border-bottom: 4px solid #cc0066;
 		text-align: center;
