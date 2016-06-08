@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	if (typeof window.orientation !== "undefined") {
 			$(".mainContainer").css('width', '99%');
 			$(".centerFooter").css('width', '99%');
 		}
