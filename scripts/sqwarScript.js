@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	//Code for mobile rendering. Includes fancy resize script//
 	if (typeof window.orientation !== "undefined") {
-		$('#forMobile').addClass("mobileContainer").removeClass("mainContainer");
+		$('.mainContainer').addClass("mobileContainer").removeClass("mainContainer");
 		$('.siteFooter').addClass("mobileFooter").removeClass("siteFooter");
 	} else {
 		$(window).resize(function() {
