@@ -108,12 +108,10 @@ html, body {
 /* MOBILE ONLY CSS ELEMENTS */
 .mobileContainer {
 	width: 99%;
-	min-height: 20%;
-	margin: 0 auto;
+	min-height: 100%;
+	margin: 0 auto -50px;
 	border-left: 4px solid #cc0066;
 	border-right: 4px solid #cc0066;
-	padding-bottom: 50px;
-	margin-bottom: -50px;
 	background: #e5e5e5;
 }
 
