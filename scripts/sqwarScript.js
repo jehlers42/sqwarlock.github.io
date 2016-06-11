@@ -1,6 +1,4 @@
 $(document).ready(function() {
-	$('.centerContentArt').hide();
-	$('.centerContentDesign').hide();
 	//Code for mobile rendering. Includes fancy resize script//
 	if (typeof window.orientation !== "undefined") {
 		$('#forMobile').addClass("mobileContainer").removeClass("mainContainer");
@@ -16,6 +14,9 @@ $(document).ready(function() {
 			}
 		});
 	}
+	//Start Art & Design hidden//
+	$('.centerContentArt').hide();
+	$('.centerContentDesign').hide();
 	//Load Home Page//
 	$('#home').click(function() {
 		$('.centerContentArt').fadeOut('400');
