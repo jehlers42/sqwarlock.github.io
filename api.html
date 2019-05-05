@@ -1,0 +1,28 @@
+<html>
+<meta charset="UTF-8">
+  <head>
+      <title>Sample page</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script>var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://api.twitter.com/1.1/followers/list.json?screen_name=sqwarlock&cursor=-1&skip_status=true&include_user_entities=false",
+  "method": "GET",
+  "headers": {
+    "cookie": "personalization_id=%22v1_iMU3Lp7F72gNzRFom4QN4Q%3D%3D%22; lang=en; guest_id=v1%253A155709045984369464",
+    "content-type": "application/json",
+    "authorization": "OAuth oauth_consumer_key=\"aI2HBlX1psIXTMNETrarR6W5g\", oauth_nonce=\"xGpBYQOJK7I7t6bihcWFPPSV93YyIxxS\", oauth_signature=\"w%2BhdHNpEFdajM3Zz5ZjWpHy5%2FcQ%3D\", oauth_signature_method=\"HMAC-SHA1\", oauth_timestamp=\"1557090836\", oauth_token=\"18630389-LLsXZ9zaM5VZ18tRlAXDFW99H7x2kr72nfaskjytf\", oauth_version=\"1.0\""
+  },
+  "processData": false,
+  "data": ""
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});</script>
+  </head>
+<body>
+  <h2>Sample page</h2>
+
+</body>
+</html>
